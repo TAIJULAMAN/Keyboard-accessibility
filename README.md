@@ -1,4 +1,4 @@
-# 🎯 Keyboard Accessibility Guide
+# Keyboard Accessibility Guide
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
@@ -6,7 +6,7 @@
 
 A comprehensive guide to implementing keyboard accessibility in web applications, ensuring your site is usable by everyone, regardless of their input method.
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Why Keyboard Accessibility Matters](#why-keyboard-accessibility-matters)
 - [Core Principles](#core-principles)
@@ -19,7 +19,7 @@ A comprehensive guide to implementing keyboard accessibility in web applications
 - [Contributing](#contributing)
 - [License](#license)
 
-## 🌟 Why Keyboard Accessibility Matters
+## Why Keyboard Accessibility Matters
 
 Keyboard accessibility is a fundamental aspect of web accessibility that benefits various user groups:
 
@@ -29,7 +29,7 @@ Keyboard accessibility is a fundamental aspect of web accessibility that benefit
 - **Temporary situations** where mouse use is impractical
 - **Legal compliance** with accessibility standards (WCAG, ADA, Section 508)
 
-## 🎯 Core Principles
+## Core Principles
 
 1. **All interactive elements** must be reachable via keyboard
 2. **Logical focus order** that follows the document flow
@@ -37,7 +37,7 @@ Keyboard accessibility is a fundamental aspect of web accessibility that benefit
 4. **Keyboard traps** must be avoided
 5. **Consistent behavior** across all interactive elements
 
-## ⌨️ Common Keyboard Controls
+## Common Keyboard Controls
 
 | Key Combination | Action |
 |-----------------|--------|
@@ -97,7 +97,7 @@ function handleKeyDown(event) {
 - Return focus to the triggering element when closing dialogs
 - Use `inert` attribute or `aria-hidden` for off-screen content
 
-## 🧪 Testing Methodology
+## Testing Methodology
 
 ### Manual Testing
 1. Navigate using only `Tab`, `Shift+Tab`, `Enter`, and arrow keys
@@ -110,7 +110,7 @@ function handleKeyDown(event) {
 - [Lighthouse](https://developers.google.com/web/tools/lighthouse)
 - [WAVE](https://wave.webaim.org/)
 
-## 🚨 Common Issues & Solutions
+## Common Issues & Solutions
 
 | Issue | Solution |
 |-------|----------|
@@ -120,7 +120,7 @@ function handleKeyDown(event) {
 | **Inconsistent behavior** | Match native element behavior |
 | **Hidden focusable elements** | Use `display: none` or `visibility: hidden` |
 
-## 🚀 Advanced Patterns
+## Advanced Patterns
 
 ### Modal Dialogs
 ```javascript
@@ -156,17 +156,17 @@ modal.addEventListener('keydown', function(e) {
 });
 ```
 
-## 📚 Resources
+## Resources
 
 - [WebAIM: Keyboard Accessibility](https://webaim.org/techniques/keyboard/)
 - [W3C WAI-ARIA Authoring Practices](https://www.w3.org/WAI/ARIA/apg/)
 - [MDN: Keyboard Navigation](https://developer.mozilla.org/en-US/docs/Web/Accessibility/Keyboard-navigable_JavaScript_widgets)
 - [A11Y Project Checklist](https://www.a11yproject.com/checklist/)
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

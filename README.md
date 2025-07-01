@@ -1,7 +1,5 @@
 # Keyboard Accessibility Guide
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 [![WCAG 2.1 AA](https://img.shields.io/badge/WCAG-2.1_AA-5C6BC0.svg)](https://www.w3.org/TR/WCAG21/)
 
 A comprehensive guide to implementing keyboard accessibility in web applications, ensuring your site is usable by everyone, regardless of their input method.

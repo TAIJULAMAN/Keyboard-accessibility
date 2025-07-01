@@ -49,7 +49,7 @@ Keyboard accessibility is a fundamental aspect of web accessibility that benefit
 | `Home` / `End` | Jump to start/end of content |
 | `Page Up` / `Page Down` | Scroll content |
 
-## 🛠 Implementation Guide
+## Implementation Guide
 
 ### 1. Semantic HTML
 
